@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="134" id="KGk-i7-Jjw" customClass="DropDownOptionsTableViewCell" customModule="PersonRecord" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRL-pM-KIi">
+                        <rect key="frame" x="30" y="10" width="260" height="72"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w3h-Lk-rqb">
+                        <rect key="frame" x="30" y="89" width="260" height="45"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxx-tu-Vdg">
+                                <rect key="frame" x="222" y="15.666666666666671" width="24" height="14"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="didTapOptionsButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="TEI-rj-EGs"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h23-hY-K2M">
+                                <rect key="frame" x="20" y="13.33333333333333" width="182" height="18.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h23-hY-K2M" firstAttribute="leading" secondItem="w3h-Lk-rqb" secondAttribute="leading" constant="20" id="BUW-zO-j9L"/>
+                            <constraint firstAttribute="height" constant="45" id="N1O-70-3tH"/>
+                            <constraint firstItem="h23-hY-K2M" firstAttribute="centerY" secondItem="w3h-Lk-rqb" secondAttribute="centerY" id="XvV-as-GHi"/>
+                            <constraint firstAttribute="trailing" secondItem="dxx-tu-Vdg" secondAttribute="trailing" constant="14" id="aJV-IB-4mg"/>
+                            <constraint firstItem="dxx-tu-Vdg" firstAttribute="leading" secondItem="h23-hY-K2M" secondAttribute="trailing" constant="20" id="ce9-7Z-8e2"/>
+                            <constraint firstItem="dxx-tu-Vdg" firstAttribute="centerY" secondItem="w3h-Lk-rqb" secondAttribute="centerY" id="j72-68-RQG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="w3h-Lk-rqb" secondAttribute="bottom" id="8BA-G1-2jo"/>
+                    <constraint firstItem="hRL-pM-KIi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="9Nh-Sv-8NN"/>
+                    <constraint firstItem="w3h-Lk-rqb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="ByM-De-Zcn"/>
+                    <constraint firstAttribute="trailing" secondItem="hRL-pM-KIi" secondAttribute="trailing" constant="30" id="IeW-Ij-J5F"/>
+                    <constraint firstAttribute="trailing" secondItem="w3h-Lk-rqb" secondAttribute="trailing" constant="30" id="XI7-fh-slH"/>
+                    <constraint firstItem="w3h-Lk-rqb" firstAttribute="top" secondItem="hRL-pM-KIi" secondAttribute="bottom" constant="7" id="ka1-Rj-GlY"/>
+                    <constraint firstItem="hRL-pM-KIi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="nTe-4e-DMu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="optionButton" destination="dxx-tu-Vdg" id="xsC-fK-Hfo"/>
+                <outlet property="optionLabel" destination="hRL-pM-KIi" id="640-J6-faa"/>
+                <outlet property="optionTextField" destination="h23-hY-K2M" id="UcX-yO-mDp"/>
+                <outlet property="optionView" destination="w3h-Lk-rqb" id="eO9-YT-nBg"/>
+            </connections>
+            <point key="canvasLocation" x="36.641221374045799" y="80.281690140845072"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

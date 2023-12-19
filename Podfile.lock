@@ -1,0 +1,20 @@
+PODS:
+  - Reusable (4.1.2):
+    - Reusable/Storyboard (= 4.1.2)
+    - Reusable/View (= 4.1.2)
+  - Reusable/Storyboard (4.1.2)
+  - Reusable/View (4.1.2)
+
+DEPENDENCIES:
+  - Reusable
+
+SPEC REPOS:
+  trunk:
+    - Reusable
+
+SPEC CHECKSUMS:
+  Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
+
+PODFILE CHECKSUM: 0dd9eee216e8a3b040baadc63c4c2718bc076a02
+
+COCOAPODS: 1.14.3

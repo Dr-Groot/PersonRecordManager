@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1801558C2B300E4300AE2C3F /* FormUpperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801558A2B300E4300AE2C3F /* FormUpperCell.swift */; };
+		1801558D2B300E4300AE2C3F /* FormUpperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1801558B2B300E4300AE2C3F /* FormUpperCell.xib */; };
+		180155902B301D4500AE2C3F /* RegisterNewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801558F2B301D4500AE2C3F /* RegisterNewViews.swift */; };
+		180155932B3025C400AE2C3F /* GenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155912B3025C400AE2C3F /* GenderTableViewCell.swift */; };
+		180155942B3025C400AE2C3F /* GenderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180155922B3025C400AE2C3F /* GenderTableViewCell.xib */; };
+		180155972B303BBB00AE2C3F /* DropDownOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155952B303BBB00AE2C3F /* DropDownOptionsTableViewCell.swift */; };
+		180155982B303BBB00AE2C3F /* DropDownOptionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180155962B303BBB00AE2C3F /* DropDownOptionsTableViewCell.xib */; };
+		1801559A2B30401800AE2C3F /* Qualification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155992B30401800AE2C3F /* Qualification.swift */; };
+		1801559D2B304FFB00AE2C3F /* UserImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801559B2B304FFB00AE2C3F /* UserImageTableViewCell.swift */; };
+		1801559E2B304FFC00AE2C3F /* UserImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1801559C2B304FFB00AE2C3F /* UserImageTableViewCell.xib */; };
+		1819B08E2B2C526B003180A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819B08D2B2C526B003180A9 /* AppDelegate.swift */; };
+		1819B0902B2C526B003180A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819B08F2B2C526B003180A9 /* SceneDelegate.swift */; };
+		1819B0982B2C526B003180A9 /* PersonRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1819B0962B2C526B003180A9 /* PersonRecord.xcdatamodeld */; };
+		1819B09A2B2C526C003180A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1819B0992B2C526C003180A9 /* Assets.xcassets */; };
+		1819B09D2B2C526C003180A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1819B09B2B2C526C003180A9 /* LaunchScreen.storyboard */; };
+		1819B0A62B2C541E003180A9 /* RegisteredRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819B0A42B2C541E003180A9 /* RegisteredRecord+CoreDataClass.swift */; };
+		1819B0A72B2C541E003180A9 /* RegisteredRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819B0A52B2C541E003180A9 /* RegisteredRecord+CoreDataProperties.swift */; };
+		1819B0AD2B2C5E0E003180A9 /* UserRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1819B0AC2B2C5E0E003180A9 /* UserRegister.storyboard */; };
+		1819B0B02B2C5E4B003180A9 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819B0AF2B2C5E4B003180A9 /* UserViewController.swift */; };
+		1819B0B42B2C61F1003180A9 /* RegisterNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819B0B32B2C61F1003180A9 /* RegisterNewUserViewController.swift */; };
+		1826A1FE2B315B1700F6FE30 /* SubmitButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A1FC2B315B1700F6FE30 /* SubmitButtonTableViewCell.swift */; };
+		1826A1FF2B315B1700F6FE30 /* SubmitButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826A1FD2B315B1700F6FE30 /* SubmitButtonTableViewCell.xib */; };
+		1826A2012B315D4B00F6FE30 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A2002B315D4B00F6FE30 /* UserProfile.swift */; };
+		1826A2032B31730B00F6FE30 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A2022B31730B00F6FE30 /* Validations.swift */; };
+		1826A2062B3186C100F6FE30 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A2042B3186C100F6FE30 /* UserTableViewCell.swift */; };
+		1826A2072B3186C100F6FE30 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826A2052B3186C100F6FE30 /* UserTableViewCell.xib */; };
+		88A0F466BD42C6C317CB0977 /* Pods_PersonRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF3C656473D05AEC123CBCB /* Pods_PersonRecord.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1801558A2B300E4300AE2C3F /* FormUpperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUpperCell.swift; sourceTree = "<group>"; };
+		1801558B2B300E4300AE2C3F /* FormUpperCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormUpperCell.xib; sourceTree = "<group>"; };
+		1801558F2B301D4500AE2C3F /* RegisterNewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNewViews.swift; sourceTree = "<group>"; };
+		180155912B3025C400AE2C3F /* GenderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderTableViewCell.swift; sourceTree = "<group>"; };
+		180155922B3025C400AE2C3F /* GenderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderTableViewCell.xib; sourceTree = "<group>"; };
+		180155952B303BBB00AE2C3F /* DropDownOptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		180155962B303BBB00AE2C3F /* DropDownOptionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownOptionsTableViewCell.xib; sourceTree = "<group>"; };
+		180155992B30401800AE2C3F /* Qualification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qualification.swift; sourceTree = "<group>"; };
+		1801559B2B304FFB00AE2C3F /* UserImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageTableViewCell.swift; sourceTree = "<group>"; };
+		1801559C2B304FFB00AE2C3F /* UserImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserImageTableViewCell.xib; sourceTree = "<group>"; };
+		1819B08A2B2C526B003180A9 /* PersonRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1819B08D2B2C526B003180A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1819B08F2B2C526B003180A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1819B0972B2C526B003180A9 /* PersonRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonRecord.xcdatamodel; sourceTree = "<group>"; };
+		1819B0992B2C526C003180A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1819B09C2B2C526C003180A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1819B09E2B2C526C003180A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1819B0A42B2C541E003180A9 /* RegisteredRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisteredRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1819B0A52B2C541E003180A9 /* RegisteredRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisteredRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1819B0AC2B2C5E0E003180A9 /* UserRegister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserRegister.storyboard; sourceTree = "<group>"; };
+		1819B0AF2B2C5E4B003180A9 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		1819B0B32B2C61F1003180A9 /* RegisterNewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNewUserViewController.swift; sourceTree = "<group>"; };
+		1826A1FC2B315B1700F6FE30 /* SubmitButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButtonTableViewCell.swift; sourceTree = "<group>"; };
+		1826A1FD2B315B1700F6FE30 /* SubmitButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubmitButtonTableViewCell.xib; sourceTree = "<group>"; };
+		1826A2002B315D4B00F6FE30 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		1826A2022B31730B00F6FE30 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		1826A2042B3186C100F6FE30 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		1826A2052B3186C100F6FE30 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		85CB73F5598E294A4F851941 /* Pods-PersonRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonRecord.release.xcconfig"; path = "Target Support Files/Pods-PersonRecord/Pods-PersonRecord.release.xcconfig"; sourceTree = "<group>"; };
+		9AF3C656473D05AEC123CBCB /* Pods_PersonRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7711E83FE9C3CDB0F484933 /* Pods-PersonRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonRecord.debug.xcconfig"; path = "Target Support Files/Pods-PersonRecord/Pods-PersonRecord.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1819B0872B2C526B003180A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A0F466BD42C6C317CB0977 /* Pods_PersonRecord.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180155832B300D6200AE2C3F /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				1801558A2B300E4300AE2C3F /* FormUpperCell.swift */,
+				1801558B2B300E4300AE2C3F /* FormUpperCell.xib */,
+				180155912B3025C400AE2C3F /* GenderTableViewCell.swift */,
+				180155922B3025C400AE2C3F /* GenderTableViewCell.xib */,
+				180155952B303BBB00AE2C3F /* DropDownOptionsTableViewCell.swift */,
+				180155962B303BBB00AE2C3F /* DropDownOptionsTableViewCell.xib */,
+				1801559B2B304FFB00AE2C3F /* UserImageTableViewCell.swift */,
+				1801559C2B304FFB00AE2C3F /* UserImageTableViewCell.xib */,
+				1826A1FC2B315B1700F6FE30 /* SubmitButtonTableViewCell.swift */,
+				1826A1FD2B315B1700F6FE30 /* SubmitButtonTableViewCell.xib */,
+				1826A2042B3186C100F6FE30 /* UserTableViewCell.swift */,
+				1826A2052B3186C100F6FE30 /* UserTableViewCell.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		1801558E2B301D1E00AE2C3F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				1801558F2B301D4500AE2C3F /* RegisterNewViews.swift */,
+				180155992B30401800AE2C3F /* Qualification.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		1819B0812B2C526B003180A9 = {
+			isa = PBXGroup;
+			children = (
+				1819B08C2B2C526B003180A9 /* PersonRecord */,
+				1819B08B2B2C526B003180A9 /* Products */,
+				CB7D2BB6A68D9399E7A6B6FD /* Pods */,
+				374207E2013B8EE36C9FB6C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1819B08B2B2C526B003180A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1819B08A2B2C526B003180A9 /* PersonRecord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1819B08C2B2C526B003180A9 /* PersonRecord */ = {
+			isa = PBXGroup;
+			children = (
+				1801558E2B301D1E00AE2C3F /* Enums */,
+				1819B0A92B2C5DBA003180A9 /* SupportingFile */,
+				1819B0A82B2C5432003180A9 /* Model */,
+				1826A2022B31730B00F6FE30 /* Validations.swift */,
+				1819B0AA2B2C5DD6003180A9 /* Storyboards */,
+				180155832B300D6200AE2C3F /* Nibs */,
+				1819B0AB2B2C5DDE003180A9 /* View */,
+				1819B0992B2C526C003180A9 /* Assets.xcassets */,
+				1819B09E2B2C526C003180A9 /* Info.plist */,
+				1819B0962B2C526B003180A9 /* PersonRecord.xcdatamodeld */,
+			);
+			path = PersonRecord;
+			sourceTree = "<group>";
+		};
+		1819B0A82B2C5432003180A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1819B0A42B2C541E003180A9 /* RegisteredRecord+CoreDataClass.swift */,
+				1819B0A52B2C541E003180A9 /* RegisteredRecord+CoreDataProperties.swift */,
+				1826A2002B315D4B00F6FE30 /* UserProfile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1819B0A92B2C5DBA003180A9 /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				1819B08D2B2C526B003180A9 /* AppDelegate.swift */,
+				1819B08F2B2C526B003180A9 /* SceneDelegate.swift */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		1819B0AA2B2C5DD6003180A9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1819B09B2B2C526C003180A9 /* LaunchScreen.storyboard */,
+				1819B0AC2B2C5E0E003180A9 /* UserRegister.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1819B0AB2B2C5DDE003180A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1819B0AF2B2C5E4B003180A9 /* UserViewController.swift */,
+				1819B0B32B2C61F1003180A9 /* RegisterNewUserViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		374207E2013B8EE36C9FB6C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3C656473D05AEC123CBCB /* Pods_PersonRecord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB7D2BB6A68D9399E7A6B6FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7711E83FE9C3CDB0F484933 /* Pods-PersonRecord.debug.xcconfig */,
+				85CB73F5598E294A4F851941 /* Pods-PersonRecord.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1819B0892B2C526B003180A9 /* PersonRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1819B0A12B2C526D003180A9 /* Build configuration list for PBXNativeTarget "PersonRecord" */;
+			buildPhases = (
+				843D8A1DD0B5C6C17B0AD79B /* [CP] Check Pods Manifest.lock */,
+				1819B0862B2C526B003180A9 /* Sources */,
+				1819B0872B2C526B003180A9 /* Frameworks */,
+				1819B0882B2C526B003180A9 /* Resources */,
+				FAB2BC815A6FE6BAC7D636FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonRecord;
+			productName = PersonRecord;
+			productReference = 1819B08A2B2C526B003180A9 /* PersonRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1819B0822B2C526B003180A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1819B0892B2C526B003180A9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1819B0852B2C526B003180A9 /* Build configuration list for PBXProject "PersonRecord" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1819B0812B2C526B003180A9;
+			productRefGroup = 1819B08B2B2C526B003180A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1819B0892B2C526B003180A9 /* PersonRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1819B0882B2C526B003180A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180155942B3025C400AE2C3F /* GenderTableViewCell.xib in Resources */,
+				1826A1FF2B315B1700F6FE30 /* SubmitButtonTableViewCell.xib in Resources */,
+				1819B0AD2B2C5E0E003180A9 /* UserRegister.storyboard in Resources */,
+				1801558D2B300E4300AE2C3F /* FormUpperCell.xib in Resources */,
+				1819B09D2B2C526C003180A9 /* LaunchScreen.storyboard in Resources */,
+				180155982B303BBB00AE2C3F /* DropDownOptionsTableViewCell.xib in Resources */,
+				1801559E2B304FFC00AE2C3F /* UserImageTableViewCell.xib in Resources */,
+				1826A2072B3186C100F6FE30 /* UserTableViewCell.xib in Resources */,
+				1819B09A2B2C526C003180A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		843D8A1DD0B5C6C17B0AD79B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonRecord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB2BC815A6FE6BAC7D636FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PersonRecord/Pods-PersonRecord-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PersonRecord/Pods-PersonRecord-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PersonRecord/Pods-PersonRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1819B0862B2C526B003180A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819B0A72B2C541E003180A9 /* RegisteredRecord+CoreDataProperties.swift in Sources */,
+				1801559A2B30401800AE2C3F /* Qualification.swift in Sources */,
+				180155972B303BBB00AE2C3F /* DropDownOptionsTableViewCell.swift in Sources */,
+				180155902B301D4500AE2C3F /* RegisterNewViews.swift in Sources */,
+				1819B0B02B2C5E4B003180A9 /* UserViewController.swift in Sources */,
+				1801559D2B304FFB00AE2C3F /* UserImageTableViewCell.swift in Sources */,
+				1819B0B42B2C61F1003180A9 /* RegisterNewUserViewController.swift in Sources */,
+				1819B0A62B2C541E003180A9 /* RegisteredRecord+CoreDataClass.swift in Sources */,
+				1819B08E2B2C526B003180A9 /* AppDelegate.swift in Sources */,
+				1826A2062B3186C100F6FE30 /* UserTableViewCell.swift in Sources */,
+				180155932B3025C400AE2C3F /* GenderTableViewCell.swift in Sources */,
+				1819B0902B2C526B003180A9 /* SceneDelegate.swift in Sources */,
+				1826A2032B31730B00F6FE30 /* Validations.swift in Sources */,
+				1826A2012B315D4B00F6FE30 /* UserProfile.swift in Sources */,
+				1801558C2B300E4300AE2C3F /* FormUpperCell.swift in Sources */,
+				1826A1FE2B315B1700F6FE30 /* SubmitButtonTableViewCell.swift in Sources */,
+				1819B0982B2C526B003180A9 /* PersonRecord.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1819B09B2B2C526C003180A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1819B09C2B2C526C003180A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1819B09F2B2C526C003180A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1819B0A02B2C526C003180A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1819B0A22B2C526D003180A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7711E83FE9C3CDB0F484933 /* Pods-PersonRecord.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G64CH969Q5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersonRecord/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = UserRegister;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.groot.PersonRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1819B0A32B2C526D003180A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CB73F5598E294A4F851941 /* Pods-PersonRecord.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G64CH969Q5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersonRecord/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = UserRegister;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.groot.PersonRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1819B0852B2C526B003180A9 /* Build configuration list for PBXProject "PersonRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1819B09F2B2C526C003180A9 /* Debug */,
+				1819B0A02B2C526C003180A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1819B0A12B2C526D003180A9 /* Build configuration list for PBXNativeTarget "PersonRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1819B0A22B2C526D003180A9 /* Debug */,
+				1819B0A32B2C526D003180A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1819B0962B2C526B003180A9 /* PersonRecord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1819B0972B2C526B003180A9 /* PersonRecord.xcdatamodel */,
+			);
+			currentVersion = 1819B0972B2C526B003180A9 /* PersonRecord.xcdatamodel */;
+			path = PersonRecord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1819B0822B2C526B003180A9 /* Project object */;
+}
