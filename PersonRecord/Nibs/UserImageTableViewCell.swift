@@ -15,7 +15,10 @@ class UserImageTableViewCell: UITableViewCell, NibReusable {
     override func awakeFromNib() {
         super.awakeFromNib()
 
+        configTheme()
     }
     
-    
+    private func configTheme() {
+        self.userProfile.layer.cornerRadius = self.userProfile.frame.height / 2
+    }
 }
