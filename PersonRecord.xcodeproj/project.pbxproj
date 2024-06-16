@@ -34,6 +34,8 @@
 		1826A2072B3186C100F6FE30 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826A2052B3186C100F6FE30 /* UserTableViewCell.xib */; };
 		88A0F466BD42C6C317CB0977 /* Pods_PersonRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF3C656473D05AEC123CBCB /* Pods_PersonRecord.framework */; };
 		FDD15C102C1EC57F00B965DA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD15C0F2C1EC57F00B965DA /* String+Extension.swift */; };
+		FDD15C132C1ECA0300B965DA /* RegisterNewUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD15C122C1ECA0300B965DA /* RegisterNewUserViewModel.swift */; };
+		FDD15C152C1ECD8600B965DA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD15C142C1ECD8600B965DA /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		9AF3C656473D05AEC123CBCB /* Pods_PersonRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7711E83FE9C3CDB0F484933 /* Pods-PersonRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonRecord.debug.xcconfig"; path = "Target Support Files/Pods-PersonRecord/Pods-PersonRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD15C0F2C1EC57F00B965DA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		FDD15C122C1ECA0300B965DA /* RegisterNewUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNewUserViewModel.swift; sourceTree = "<group>"; };
+		FDD15C142C1ECD8600B965DA /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				1819B0AF2B2C5E4B003180A9 /* UserViewController.swift */,
-				1819B0B32B2C61F1003180A9 /* RegisterNewUserViewController.swift */,
+				FDD15C112C1EC9E600B965DA /* RegisterNewUser */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,8 +215,18 @@
 			isa = PBXGroup;
 			children = (
 				FDD15C0F2C1EC57F00B965DA /* String+Extension.swift */,
+				FDD15C142C1ECD8600B965DA /* Router.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		FDD15C112C1EC9E600B965DA /* RegisterNewUser */ = {
+			isa = PBXGroup;
+			children = (
+				1819B0B32B2C61F1003180A9 /* RegisterNewUserViewController.swift */,
+				FDD15C122C1ECA0300B965DA /* RegisterNewUserViewModel.swift */,
+			);
+			path = RegisterNewUser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,8 +353,10 @@
 				1819B0A72B2C541E003180A9 /* RegisteredRecord+CoreDataProperties.swift in Sources */,
 				1801559A2B30401800AE2C3F /* Qualification.swift in Sources */,
 				180155972B303BBB00AE2C3F /* DropDownOptionsTableViewCell.swift in Sources */,
+				FDD15C132C1ECA0300B965DA /* RegisterNewUserViewModel.swift in Sources */,
 				180155902B301D4500AE2C3F /* RegisterNewViews.swift in Sources */,
 				1819B0B02B2C5E4B003180A9 /* UserViewController.swift in Sources */,
+				FDD15C152C1ECD8600B965DA /* Router.swift in Sources */,
 				1801559D2B304FFB00AE2C3F /* UserImageTableViewCell.swift in Sources */,
 				1819B0B42B2C61F1003180A9 /* RegisterNewUserViewController.swift in Sources */,
 				1819B0A62B2C541E003180A9 /* RegisteredRecord+CoreDataClass.swift in Sources */,
