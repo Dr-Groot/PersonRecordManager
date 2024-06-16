@@ -1,3 +1,8 @@
 # Person Record Manager using CoreData
 
-<img width="557" alt="Screenshot 2023-12-19 at 4 30 19 PM" src="https://github.com/Dr-Groot/PersonRecord_CoreData/assets/63160825/048a97d1-257a-4cf6-9d94-57b87f638ef4">
+## Managing user list with the help of Core Data.
++ Includes Core Data with CRUD operation
++ Easy delete and register feature
++ Saving profile image using core data
+
+![Screenshot 2024-06-16 at 3 22 25 PM](https://github.com/Dr-Groot/PersonRecord_CoreData/assets/63160825/8cf04aab-8e03-4c9d-9f53-12083eb6d83a)
