@@ -131,13 +131,14 @@
 		1819B08C2B2C526B003180A9 /* PersonRecord */ = {
 			isa = PBXGroup;
 			children = (
-				1801558E2B301D1E00AE2C3F /* Enums */,
 				1819B0A92B2C5DBA003180A9 /* SupportingFile */,
+				1801558E2B301D1E00AE2C3F /* Enums */,
+				FDD15C0D2C1EC2E200B965DA /* CoreDataHelper */,
+				FDD15C0E2C1EC31F00B965DA /* Helper */,
 				1819B0A82B2C5432003180A9 /* Model */,
-				1826A2022B31730B00F6FE30 /* Validations.swift */,
 				1819B0AA2B2C5DD6003180A9 /* Storyboards */,
-				180155832B300D6200AE2C3F /* Nibs */,
 				1819B0AB2B2C5DDE003180A9 /* View */,
+				180155832B300D6200AE2C3F /* Nibs */,
 				1819B0992B2C526C003180A9 /* Assets.xcassets */,
 				1819B09E2B2C526C003180A9 /* Info.plist */,
 				1819B0962B2C526B003180A9 /* PersonRecord.xcdatamodeld */,
@@ -148,8 +149,6 @@
 		1819B0A82B2C5432003180A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1819B0A42B2C541E003180A9 /* RegisteredRecord+CoreDataClass.swift */,
-				1819B0A52B2C541E003180A9 /* RegisteredRecord+CoreDataProperties.swift */,
 				1826A2002B315D4B00F6FE30 /* UserProfile.swift */,
 			);
 			path = Model;
@@ -197,6 +196,23 @@
 				85CB73F5598E294A4F851941 /* Pods-PersonRecord.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDD15C0D2C1EC2E200B965DA /* CoreDataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1819B0A42B2C541E003180A9 /* RegisteredRecord+CoreDataClass.swift */,
+				1819B0A52B2C541E003180A9 /* RegisteredRecord+CoreDataProperties.swift */,
+			);
+			path = CoreDataHelper;
+			sourceTree = "<group>";
+		};
+		FDD15C0E2C1EC31F00B965DA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1826A2022B31730B00F6FE30 /* Validations.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
