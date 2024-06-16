@@ -30,10 +30,10 @@
 		1826A1FE2B315B1700F6FE30 /* SubmitButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A1FC2B315B1700F6FE30 /* SubmitButtonTableViewCell.swift */; };
 		1826A1FF2B315B1700F6FE30 /* SubmitButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826A1FD2B315B1700F6FE30 /* SubmitButtonTableViewCell.xib */; };
 		1826A2012B315D4B00F6FE30 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A2002B315D4B00F6FE30 /* UserProfile.swift */; };
-		1826A2032B31730B00F6FE30 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A2022B31730B00F6FE30 /* Validations.swift */; };
 		1826A2062B3186C100F6FE30 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A2042B3186C100F6FE30 /* UserTableViewCell.swift */; };
 		1826A2072B3186C100F6FE30 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826A2052B3186C100F6FE30 /* UserTableViewCell.xib */; };
 		88A0F466BD42C6C317CB0977 /* Pods_PersonRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF3C656473D05AEC123CBCB /* Pods_PersonRecord.framework */; };
+		FDD15C102C1EC57F00B965DA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD15C0F2C1EC57F00B965DA /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,12 +62,12 @@
 		1826A1FC2B315B1700F6FE30 /* SubmitButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButtonTableViewCell.swift; sourceTree = "<group>"; };
 		1826A1FD2B315B1700F6FE30 /* SubmitButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubmitButtonTableViewCell.xib; sourceTree = "<group>"; };
 		1826A2002B315D4B00F6FE30 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
-		1826A2022B31730B00F6FE30 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
 		1826A2042B3186C100F6FE30 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		1826A2052B3186C100F6FE30 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 		85CB73F5598E294A4F851941 /* Pods-PersonRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonRecord.release.xcconfig"; path = "Target Support Files/Pods-PersonRecord/Pods-PersonRecord.release.xcconfig"; sourceTree = "<group>"; };
 		9AF3C656473D05AEC123CBCB /* Pods_PersonRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7711E83FE9C3CDB0F484933 /* Pods-PersonRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonRecord.debug.xcconfig"; path = "Target Support Files/Pods-PersonRecord/Pods-PersonRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD15C0F2C1EC57F00B965DA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,7 +210,7 @@
 		FDD15C0E2C1EC31F00B965DA /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				1826A2022B31730B00F6FE30 /* Validations.swift */,
+				FDD15C0F2C1EC57F00B965DA /* String+Extension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -346,9 +346,9 @@
 				1819B0A62B2C541E003180A9 /* RegisteredRecord+CoreDataClass.swift in Sources */,
 				1819B08E2B2C526B003180A9 /* AppDelegate.swift in Sources */,
 				1826A2062B3186C100F6FE30 /* UserTableViewCell.swift in Sources */,
+				FDD15C102C1EC57F00B965DA /* String+Extension.swift in Sources */,
 				180155932B3025C400AE2C3F /* GenderTableViewCell.swift in Sources */,
 				1819B0902B2C526B003180A9 /* SceneDelegate.swift in Sources */,
-				1826A2032B31730B00F6FE30 /* Validations.swift in Sources */,
 				1826A2012B315D4B00F6FE30 /* UserProfile.swift in Sources */,
 				1801558C2B300E4300AE2C3F /* FormUpperCell.swift in Sources */,
 				1826A1FE2B315B1700F6FE30 /* SubmitButtonTableViewCell.swift in Sources */,

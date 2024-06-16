@@ -43,11 +43,11 @@ class RegisterNewUserViewController: UIViewController {
     }
     
     private func validateUser() {
-        let validNames = Validation().isValidName(self.newUserData.firstName ?? "") && Validation().isValidName(self.newUserData.lastName ?? "")
-        let validEmail = Validation().isValidEmail(self.newUserData.email ?? "")
-        let validPassword = Validation().isValidPassword(self.newUserData.password ?? "")
-        let validConfirmPassword = Validation().isPasswordConfirm(password: self.newUserData.password ?? "", confirmPassword: self.newUserData.confirmPassword ?? "")
-        let validPhoneNumber = Validation().isValidPhoneNumber(self.newUserData.mobileNumber ?? "")
+        let validNames = self.newUserData.firstName?.isValidName() ?? false && self.newUserData.lastName?.isValidName() ?? false
+        let validEmail = self.newUserData.email?.isValidEmail() ?? false
+        let validPassword = self.newUserData.password?.isValidPassword() ?? false
+        let validConfirmPassword = self.newUserData.password == self.newUserData.confirmPassword ? true : false
+        let validPhoneNumber = self.newUserData.mobileNumber?.isValidPhoneNumber() ?? false
         let validPhoto = self.newUserData.photo != nil ? true : false
         
         if (validNames && validEmail && validPassword && validPhoneNumber && validConfirmPassword && validPhoneNumber && validPhoto) {
