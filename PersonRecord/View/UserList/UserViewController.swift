@@ -12,6 +12,7 @@ class UserViewController: UIViewController {
     
     @IBOutlet weak var registerButton: UIButton!
     @IBOutlet weak var userTableView: UITableView!
+    @IBOutlet weak var userNotFoundLabel: UILabel!
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     private let viewModel = UserViewModel()
@@ -39,10 +40,11 @@ class UserViewController: UIViewController {
 extension UserViewController {
     
     private func configTheme() {
-        self.navigationItem.title = "User"
+        self.navigationItem.title = "User List"
         registerButton.backgroundColor = .systemTeal
         registerButton.setTitle("REGISTER", for: .normal)
         registerButton.setTitleColor(.white, for: .normal)
+        self.userNotFoundLabel.isHidden = true
     }
     
     private func configDependency() {
@@ -74,6 +76,7 @@ extension UserViewController {
             DispatchQueue.main.async {
                 self.userTableView.reloadData()
             }
+            self.userNotFoundLabel.isHidden = viewModel.userList.count == 0 ? false : true
         } catch {
             print("Unable to fetch request")
         }
